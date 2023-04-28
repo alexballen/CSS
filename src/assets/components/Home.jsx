@@ -1,5 +1,5 @@
 import s from "./Home.module.css";
-import img from "../react.svg";
+//import img from "../react.svg";
 
 const Home = () => {
   return (
@@ -30,12 +30,22 @@ const Home = () => {
           veritatis eveniet alias beatae ad aperiam?
         </p>
       </div> */}
-      <div className={s.container}>
+      {/*  <div className={s.container}>
         <h2 className={s.titleuno}>Soy el primer elemento</h2>
         <h2 className={s.titledos}>Soy el segundo elemento</h2>
         <h2 className={s.titletres}>Soy el tercer elemento</h2>
         <h2 className={s.titlecuatro}>Soy el cuarto elemento</h2>
+      </div> */}
+      <div className={s.container}>
+        {/* <div className={s.static}>Static</div> */}
+        <div className={s.relative}>Relative</div>
+        <div className={s.absolute}>Absolute</div>
+        <div className={s.fixed}>Fixed</div>
       </div>
+
+      {/* <div className={s.container}>
+        <div className={s.sticky}></div>
+      </div> */}
     </>
   );
 };

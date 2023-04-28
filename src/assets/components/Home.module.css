@@ -7,6 +7,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  min-height: 1500px;
 }
 
 /* .main {
@@ -116,14 +117,100 @@ body {
   text-transform: uppercase;
 } */
 
-.container {
+/* html {
+  font-size: 40px;
+} */
+
+/* .container {
   background-color: slateblue;
   color: #fff;
   padding: 30px;
-}
+  width: 100%;
+  height: 100vh;
+  height: 300px;
+  width: 500px;
+} */
 
-h2 {
+/* h2 {
   margin-bottom: 20px;
   border: 1px solid white;
   width: 150pt;
+} */
+
+/* .titleuno {
+  font-size: 1.5rem;
+} */
+
+/* .titledos,
+.titletres {
+  font-size: 24px;
+} */
+
+/* .titlecuatro {
+  font-size: 2em;
+} */
+
+/* .container {
+  width: 90%;
+  height: 1500px;
+  border: 2px solid #000;
+  margin: 80px auto;
+  position: absolute;
+} */
+
+div {
+  /* width: 150px; */
+  /* height: 100px;
+  font-size: 1.3rem;
+  line-height: 100px;
+  text-align: center;
+  color: #fff; */
 }
+
+/* .static {
+  width: 150px;
+  background-color: midnightblue;
+} */
+
+.relative {
+  /*   width: 150px;
+  background-color: tomato;
+  position: relative; */
+  /* top: 300px; */
+  /* right: 100px; */
+  /* left: -100px; */
+  /* bottom: 100px; */
+  /* z-index: 101; */
+}
+
+/* .absolute {
+  width: 150px;
+  background-color: purple;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  z-index: 150;
+} */
+
+/* .fixed {
+  width: 150px;
+  background-color: royalblue;
+  position: fixed;
+  top: 100px;
+  left: 80px;
+  z-index: 1001;
+} */
+
+/* .container {
+  height: 200px;
+  background-color: salmon;
+} */
+
+/* .sticky {
+  width: 140px;
+  height: 140px;
+  background-color: slateblue;
+  position: sticky;
+  bottom: 50px;
+  top: 50px;
+} */
